@@ -6,6 +6,7 @@ setup(
     package_data={'competitive_rl.car_racing': ['*.png']},
     include_package_data=True,
     install_requires=[
+        "future-fstrings",
         "gym",
         "pygame==1.9.6",
         "opencv-python",

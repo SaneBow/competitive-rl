@@ -1,3 +1,4 @@
+# -*- coding: future_fstrings -*-
 """
 Easiest continuous control task to learn from pixels, a top-down racing
 environment.
