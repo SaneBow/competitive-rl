@@ -523,7 +523,7 @@ class CarRacing(gym.Env, EzPickle):
         if a1 > 0:  # acceleration
             a2 = 0
         else:
-            a2 = a1
+            a2 = -a1
             a1 = 0
         return a0, a1, a2
 
